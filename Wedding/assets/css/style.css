@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "hugh";
+    src: url("../fonts/HughIsLifePersonalUseItalic-K7axe.ttf");
+}
+@font-face {
+    font-family: "gerald";
+    src: url("../fonts//GeraldinePersonalUseItalic-PK12m.ttf");
+}
+
+@font-face {
+    font-family: "free";
+    src: url("../fonts/FeelfreePersonalUseRegular-lg2Bw.ttf");
+}
+
+@font-face {
+    font-family: "chopin";
+    src: url("../fonts/ChopinScript.ttf");
+}
+@font-face {
+    font-family: "amanda";
+    src: url("../fonts/AnandaBlackPersonalUseRegular-rg9Rx.ttf");
+}
+@font-face {
+    font-family: "wedding";
+    src: url("../fonts/WeddingdayPersonalUseRegular-1Gvo0.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: 'Montserrat', sans-serif;    
+    letter-spacing: 1px;
+    font-weight: 800;
+
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800px;
+
+    background-color: rgb(236, 236, 236);
+}
+
+.invintation-context {
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 350px;
+    height: 500px;
+    box-shadow: rgba(210, 109, 205, 0.2) 0px 7px 29px 0px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.context1 {
+    font-weight: 400;
+    font-family: "hugh";
+    font-size: 100px;
+
+    width: 50px;
+    line-height: 50px;
+    transform: rotate(345deg);
+    text-align: center;
+    margin-bottom: 40px;
+  }
+.context2 {
+    font-size: 15px;
+    margin-bottom: 24px;
+  }
+  
+.context3 {
+    font-size: 10px;
+    margin-bottom: 14px;
+  }
+  
+.context4 {
+    letter-spacing: 2px;
+    font-size: 13px;
+    width: 207px;
+    margin-left: 24px;
+    margin-bottom: 13px;
+  }
+  
+.context5 {
+    font-size: 9px;
+    margin-bottom: 15px;
+  }
+  
+.context6 {
+    font-size: 10px;
+  }
